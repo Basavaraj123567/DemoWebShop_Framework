@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-26T13:04:42 IST" name="Default suite" finished-at="2024-07-26T13:04:52 IST" duration-ms="10508">
+    <groups>
+      <group name="integration">
+        <method signature="Product_Wishlist.Verify_User_is_Able_To_Add_Product_to_Wishlist()[pri:0, instance:TestScripts.Product_Wishlist@71809907]" name="Verify_User_is_Able_To_Add_Product_to_Wishlist" class="TestScripts.Product_Wishlist"/>
+      </group> <!-- integration -->
+    </groups>
+    <test started-at="2024-07-26T13:04:42 IST" name="Default test" finished-at="2024-07-26T13:04:52 IST" duration-ms="10508">
+      <class name="TestScripts.Product_Wishlist">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:TestScripts.Product_Wishlist@71809907]" started-at="2024-07-26T13:04:42 IST" name="launchTheBrowser" finished-at="2024-07-26T13:04:46 IST" duration-ms="4306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:TestScripts.Product_Wishlist@71809907]" started-at="2024-07-26T13:04:46 IST" name="performLogin" finished-at="2024-07-26T13:04:48 IST" duration-ms="1967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="Verify_User_is_Able_To_Add_Product_to_Wishlist()[pri:0, instance:TestScripts.Product_Wishlist@71809907]" started-at="2024-07-26T13:04:48 IST" name="Verify_User_is_Able_To_Add_Product_to_Wishlist" finished-at="2024-07-26T13:04:51 IST" duration-ms="3217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_User_is_Able_To_Add_Product_to_Wishlist -->
+        <test-method is-config="true" signature="performLogot()[pri:0, instance:TestScripts.Product_Wishlist@71809907]" started-at="2024-07-26T13:04:51 IST" name="performLogot" finished-at="2024-07-26T13:04:52 IST" duration-ms="854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogot -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:TestScripts.Product_Wishlist@71809907]" started-at="2024-07-26T13:04:52 IST" name="closeTheBrowser" finished-at="2024-07-26T13:04:52 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- TestScripts.Product_Wishlist -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
